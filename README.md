@@ -8,9 +8,9 @@ This repository contains Jupyter notebooks replicating study described in theart
 Preprocessing of the EHR data that produces data andlabel files in a form:
 
 - Data
--- foreach patient
---- list of visits
----- list of diagnosis ICD9 codes
+  - foreach patient
+    - list of visits
+      - list of diagnosis ICD9 codes
 - Label
--- for each patient
---- list of visit readmission label
+  - for each patient
+    - list of visit readmission label
